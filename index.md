@@ -14,6 +14,14 @@ title: "Главная"
 - [Сравнение моторов](/sravnenie/)
 - [Рейтинги и отзывы](/reyting/)
 
+## Самые читаемые статьи:
+
+- [Выбор масла для лодочного мотора](/remont/maslo-dlya-lodochnogo-motora/)
+- [2-тактный или 4-тактный: что выбрать?](/sravnenie/2t-vs-4t/)
+- [Обзор моторов Yamaha](/obzory/yamaha/)
+- [Обзор моторов Suzuki](/obzory/suzuki/)
+- [Правильная обкатка нового мотора](/remont/obkatka-lodochnogo-motora/)
+
 <div class="cta-block">
 <h3>💡 Не пропустите новое!</h3>
 <p>В нашем Telegram-канале эксклюзивные материалы и ответы на вопросы</p>
