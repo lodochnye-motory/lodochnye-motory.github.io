@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        .cta-block { background: #f0f8ff; padding: 20px; border-radius: 10px; margin: 30px 0; text-align: center; }
+        .cta-button { background: #0088cc; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="/">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+        <nav>
+            <a href="/">Главная</a> | 
+            <a href="/obzory/">Обзоры</a> | 
+            <a href="/remont/">Ремонт</a> | 
+            <a href="/blog/">Блог</a>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="cta-block">
+            <h3>🚀 Присоединяйтесь к нашему Telegram-каналу!</h3>
+            <p>Эксклюзивные материалы и оперативные ответы на вопросы</p>
+            <a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Подписаться в Telegram</a>
+        </div>
+        <p>&copy; 2024 {{ site.title }}</p>
+    </footer>
+</body>
+</html>
