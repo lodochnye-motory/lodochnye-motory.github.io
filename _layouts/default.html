@@ -1,34 +1,10 @@
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/favicon.ico">
-
-<!-- Для современных браузеров -->
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-    <!-- Open Graph мета-теги -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="https://lodochnye-motory.github.io/assets/og-image.jpg">
-    <meta property="og:url" content="https://lodochnye-motory.github.io{{ page.url }}">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Эксперт по лодочным моторам">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="https://lodochnye-motory.github.io/assets/og-image.jpg">
-
-    <!-- Ссылка на Telegram канал для микроформатов (необязательно) -->
-    <link rel="me" href="https://t.me/+sM-I_3xdgHAxMDIy">
-
+    <title>Эксперт по лодочным моторам</title>
+    <meta name="description" content="Обзоры, рейтинги и руководства по лодочным моторам">
     <style>
         body { 
             font-family: Arial, sans-serif; 
@@ -52,13 +28,31 @@
             border-radius: 5px; 
             display: inline-block; 
         }
-        .telegram-widget { 
-            background: linear-gradient(135deg, #0088cc, #00aced); 
-            color: white; 
-            padding: 30px; 
-            border-radius: 15px; 
-            text-align: center; 
-            margin: 40px 0; 
-        }
     </style>
 </head>
+<body>
+    <header>
+        <h1>Эксперт по лодочным моторам</h1>
+        <p>Обзоры, рейтинги и руководства по лодочным моторам</p>
+        <nav>
+            <a href="/">Главная</a> | 
+            <a href="/obzory/">Обзоры</a> | 
+            <a href="/remont/">Ремонт</a> | 
+            <a href="/blog/">Блог</a>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="cta-block">
+            <h3>🚀 Присоединяйтесь к нашему Telegram-каналу!</h3>
+            <p>Эксклюзивные материалы и оперативные ответы на вопросы</p>
+            <a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Подписаться в Telegram</a>
+        </div>
+        <p>&copy; 2024 Эксперт по лодочным моторам</p>
+    </footer>
+</body>
+</html>
