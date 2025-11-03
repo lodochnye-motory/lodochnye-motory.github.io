@@ -37,5 +37,5 @@ Suzuki — японский бренд, известный своей надеж
 <div class="cta-block">
 <h3>🇯🇵 Больше о Suzuki в Telegram!</h3>
 <p>Подпишитесь, чтобы получить эксклюзивные тесты и сравнения</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Подписаться на обзоры</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Подписаться на обзоры</a>
 </div>
