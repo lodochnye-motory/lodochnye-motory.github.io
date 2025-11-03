@@ -30,5 +30,5 @@ permalink: /remont/maslo-dlya-lodochnogo-motora/
 <div class="cta-block">
 <h3>🔧 Нужна помощь с выбором масла?</h3>
 <p>В нашем Telegram-канале мы поможем подобрать масло именно для вашего мотора</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Получить консультацию в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Получить консультацию в Telegram</a>
 </div>
