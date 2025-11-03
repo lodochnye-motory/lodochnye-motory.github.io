@@ -25,5 +25,5 @@ title: "Главная"
 <div class="cta-block">
 <h3>💡 Не пропустите новое!</h3>
 <p>В нашем Telegram-канале эксклюзивные материалы и ответы на вопросы</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Подписаться в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Подписаться в Telegram</a>
 </div>
