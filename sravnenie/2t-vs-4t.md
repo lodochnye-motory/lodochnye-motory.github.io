@@ -32,5 +32,5 @@ permalink: /sravnenie/2t-vs-4t/
 <div class="cta-block">
 <h3>🚤 Не можете определиться?</h3>
 <p>В Telegram-канале мы поможем выбрать идеальный мотор для ваших задач</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Подобрать мотор в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Подобрать мотор в Telegram</a>
 </div>
