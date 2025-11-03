@@ -14,5 +14,5 @@ permalink: /blog/
 <div class="cta-block">
 <h3>📰 Будьте в курсе новинок!</h3>
 <p>Подпишитесь на Telegram-канал, чтобы первыми узнавать о новых статьях</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Читать новости в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Читать новости в Telegram</a>
 </div>
