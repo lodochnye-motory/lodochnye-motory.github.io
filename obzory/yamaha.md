@@ -38,5 +38,5 @@ Yamaha — один из самых популярных и надежных б�
 <div class="cta-block">
 <h3>🇯🇵 Хотите узнать больше о Yamaha?</h3>
 <p>В нашем Telegram-канале свежие обзоры, тесты и актуальные цены</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Смотреть обзоры в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Смотреть обзоры в Telegram</a>
 </div>
