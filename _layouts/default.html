@@ -1,39 +1,56 @@
-<!DOCTYPE html>
-<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Open Graph мета-теги -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="https://lodochnye-motory.github.io/assets/og-image.jpg">
+    <meta property="og:url" content="https://lodochnye-motory.github.io{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Эксперт по лодочным моторам">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="https://lodochnye-motory.github.io/assets/og-image.jpg">
+
+    <!-- Ссылка на Telegram канал для микроформатов (необязательно) -->
+    <link rel="me" href="https://t.me/+sM-I_3xdgHAxMDIy">
+
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        .cta-block { background: #f0f8ff; padding: 20px; border-radius: 10px; margin: 30px 0; text-align: center; }
-        .cta-button { background: #0088cc; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; display: inline-block; }
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6; 
+        }
+        .cta-block { 
+            background: #f0f8ff; 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 30px 0; 
+            text-align: center; 
+        }
+        .cta-button { 
+            background: #0088cc; 
+            color: white; 
+            padding: 12px 24px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            display: inline-block; 
+        }
+        .telegram-widget { 
+            background: linear-gradient(135deg, #0088cc, #00aced); 
+            color: white; 
+            padding: 30px; 
+            border-radius: 15px; 
+            text-align: center; 
+            margin: 40px 0; 
+        }
     </style>
 </head>
-<body>
-    <header>
-        <h1><a href="/">{{ site.title }}</a></h1>
-        <p>{{ site.description }}</p>
-        <nav>
-            <a href="/">Главная</a> | 
-            <a href="/obzory/">Обзоры</a> | 
-            <a href="/remont/">Ремонт</a> | 
-            <a href="/blog/">Блог</a>
-        </nav>
-    </header>
-
-    <main>
-        {{ content }}
-    </main>
-
-   <footer>
-    <div class="telegram-widget" style="background: linear-gradient(135deg, #0088cc, #00aced); color: white; padding: 30px; border-radius: 15px; text-align: center; margin: 40px 0;">
-        <h3 style="margin: 0 0 15px 0;">💡 Присоединяйтесь к нашему Telegram-сообществу!</h3>
-        <p style="margin: 0 0 20px 0; font-size: 18px;">Ежедневные обзоры, эксклюзивные тесты и ответы на вопросы</p>
-        <a href="https://t.me/+sM-I_3xdgHAxMDIy" style="background: white; color: #0088cc; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; display: inline-block; font-size: 16px;">
-            📲 Подписаться в Telegram
-        </a>
-    </div>
-    <p>&copy; 2025 {{ site.title }}</p>
-</footer>
