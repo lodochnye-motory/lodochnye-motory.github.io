@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Главная"
+title: Главная
 ---
 
 # Добро пожаловать в мир лодочных моторов!
@@ -13,14 +13,6 @@ title: "Главная"
 - [Ремонт и обслуживание](/remont/)  
 - [Сравнение моторов](/sravnenie/)
 - [Рейтинги и отзывы](/reyting/)
-
-## Самые читаемые статьи:
-
-- [Выбор масла для лодочного мотора](/remont/maslo-dlya-lodochnogo-motora/)
-- [2-тактный или 4-тактный: что выбрать?](/sravnenie/2t-vs-4t/)
-- [Обзор моторов Yamaha](/obzory/yamaha/)
-- [Обзор моторов Suzuki](/obzory/suzuki/)
-- [Правильная обкатка нового мотора](/remont/obkatka-lodochnogo-motora/)
 
 <div class="cta-block">
 <h3>💡 Не пропустите новое!</h3>
