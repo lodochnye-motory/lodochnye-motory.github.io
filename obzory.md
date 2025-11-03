@@ -18,5 +18,5 @@ permalink: /obzory/
 <div class="cta-block">
 <h3>🚀 Новые обзоры каждый день!</h3>
 <p>В Telegram-канале мы публикуем эксклюзивные тесты и первые впечатления</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Смотреть обзоры в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Смотреть обзоры в Telegram</a>
 </div>
