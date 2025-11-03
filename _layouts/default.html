@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эксперт по лодочным моторам</title>
-    <meta name="description" content="Обзоры, рейтинги и руководства по лодочным моторам">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+    <title>{% if page.title %}{{ page.title }} | Эксперт по лодочным моторам{% else %}Эксперт по лодочным моторам{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}Обзоры, рейтинги и руководства по лодочным моторам. Yamaha, Suzuki, Tohatsu, Mercury, Hangkai.{% endif %}">
+
+    <!-- Open Graph мета-теги -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | Эксперт по лодочным моторам{% else %}Эксперт по лодочным моторам{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}Обзоры, рейтинги и руководства по лодочным моторам. Yamaha, Suzuki, Tohatsu, Mercury, Hangkai.{% endif %}">
+    <meta property="og:image" content="https://lodochnye-motory.github.io/assets/og-image.jpg">
+    <meta property="og:url" content="https://lodochnye-motory.github.io{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Эксперт по лодочным моторам">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | Эксперт по лодочным моторам{% else %}Эксперт по лодочным моторам{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}Обзоры, рейтинги и руководства по лодочным моторам. Yamaha, Suzuki, Tohatsu, Mercury, Hangkai.{% endif %}">
+    <meta name="twitter:image" content="https://lodochnye-motory.github.io/assets/og-image.jpg">
+
     <style>
         body { 
             font-family: Arial, sans-serif; 
@@ -12,6 +32,20 @@
             margin: 0 auto; 
             padding: 20px; 
             line-height: 1.6; 
+            color: #333;
+        }
+        header {
+            border-bottom: 2px solid #0088cc;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0088cc;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         .cta-block { 
             background: #f0f8ff; 
@@ -19,6 +53,7 @@
             border-radius: 10px; 
             margin: 30px 0; 
             text-align: center; 
+            border-left: 4px solid #0088cc;
         }
         .cta-button { 
             background: #0088cc; 
@@ -26,18 +61,44 @@
             padding: 12px 24px; 
             text-decoration: none; 
             border-radius: 5px; 
-            display: inline-block; 
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .cta-button:hover {
+            background: #006699;
+        }
+        .telegram-widget { 
+            background: linear-gradient(135deg, #0088cc, #00aced); 
+            color: white; 
+            padding: 30px; 
+            border-radius: 15px; 
+            text-align: center; 
+            margin: 40px 0; 
+        }
+        footer {
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            text-align: center;
+            color: #666;
+        }
+        h1, h2, h3 {
+            color: #0088cc;
+        }
+        a {
+            color: #0088cc;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Эксперт по лодочным моторам</h1>
+        <h1><a href="/" style="text-decoration: none; color: inherit;">Эксперт по лодочным моторам</a></h1>
         <p>Обзоры, рейтинги и руководства по лодочным моторам</p>
         <nav>
-            <a href="/">Главная</a> | 
-            <a href="/obzory/">Обзоры</a> | 
-            <a href="/remont/">Ремонт</a> | 
+            <a href="/">Главная</a>
+            <a href="/obzory/">Обзоры</a>
+            <a href="/remont/">Ремонт</a>
             <a href="/blog/">Блог</a>
         </nav>
     </header>
@@ -47,12 +108,12 @@
     </main>
 
     <footer>
-        <div class="cta-block">
-            <h3>🚀 Присоединяйтесь к нашему Telegram-каналу!</h3>
-            <p>Эксклюзивные материалы и оперативные ответы на вопросы</p>
-            <a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Подписаться в Telegram</a>
+        <div class="telegram-widget">
+            <h3 style="color: white; margin-top: 0;">🚀 Присоединяйтесь к нашему Telegram-сообществу!</h3>
+            <p>Ежедневные обзоры, эксклюзивные тесты и ответы на вопросы</p>
+            <a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">📲 Подписаться в Telegram</a>
         </div>
-        <p>&copy; 2024 Эксперт по лодочным моторам</p>
+        <p>&copy; 2025 Эксперт по лодочным моторам</p>
     </footer>
 </body>
 </html>
