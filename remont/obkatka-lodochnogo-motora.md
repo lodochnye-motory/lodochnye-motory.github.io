@@ -34,5 +34,5 @@ permalink: /remont/obkatka-lodochnogo-motora/
 <div class="cta-block">
 <h3>🔧 Нужна помощь с обкаткой?</h3>
 <p>В Telegram-канале опытные механики ответят на ваши вопросы</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Задать вопрос специалисту</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Задать вопрос специалисту</a>
 </div>
