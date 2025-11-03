@@ -17,5 +17,5 @@ permalink: /remont/
 <div class="cta-block">
 <h3>🔧 Нужна помощь с ремонтом?</h3>
 <p>В нашем Telegram-чате опытные механики отвечают на вопросы</p>
-<a href="https://t.me/ВАШ_КАНАЛ" class="cta-button">Задать вопрос в Telegram</a>
+<a href="https://t.me/+sM-I_3xdgHAxMDIy" class="cta-button">Задать вопрос в Telegram</a>
 </div>
