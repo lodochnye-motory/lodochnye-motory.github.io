@@ -56,18 +56,59 @@
         }
 
         header {
-            text-align: center;
             padding-bottom: 20px;
             margin-bottom: 30px;
         }
 
-        <nav>
-           <a href="/">Главная</a>
-           <a href="/obzory/">Обзоры</a>
-           <a href="/remont/">Ремонт</a>
-           <a href="/blog/">Блог</a>
-           <a href="https://t.me/+sM-I_3xdgHAxMDIy" target="_blank" class="nav-telegram">📢 Telegram канал</a>
-        </nav>
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        .telegram-header-link {
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .telegram-header-link a {
+            display: inline-block;
+            background: #0088cc;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0, 136, 204, 0.3);
+            transition: all 0.3s ease;
+            font-size: 1.1em;
+        }
+
+        .telegram-header-link a:hover {
+            background: #006699;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
+        }
+
+        .telegram-header-link p {
+            margin: 8px 0 0 0;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin: 25px 0;
+            flex-wrap: wrap;
         }
 
         nav a {
@@ -184,6 +225,16 @@
                 padding: 20px;
             }
             
+            .header-top {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .telegram-header-link {
+                text-align: center;
+                margin-top: 15px;
+            }
+            
             nav {
                 gap: 10px;
             }
@@ -216,8 +267,19 @@
 <body>
     <div class="content-container">
         <header>
-            <h1>🚤 Эксперт по лодочным моторам</h1>
-            <p style="font-size: 1.2em; color: #7f8c8d;">Обзоры, рейтинги и руководства по лодочным моторам</p>
+            <div class="header-top">
+                <div class="header-text">
+                    <h1>🚤 Эксперт по лодочным моторам</h1>
+                    <p style="font-size: 1.2em; color: #7f8c8d; margin: 0;">Обзоры, рейтинги и руководства по лодочным моторам</p>
+                </div>
+                <div class="telegram-header-link">
+                    <a href="https://t.me/+sM-I_3xdgHAxMDIy" target="_blank">
+                        📢 Telegram канал
+                    </a>
+                    <p>Присоединяйтесь!</p>
+                </div>
+            </div>
+            
             <nav>
                 <a href="/">Главная</a>
                 <a href="/obzory/">Обзоры</a>
