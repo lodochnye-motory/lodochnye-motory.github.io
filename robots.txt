@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lodochnye-motory.github.io/sitemap.xml
